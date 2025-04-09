@@ -1,0 +1,52 @@
+.bookCard {
+  height: 450px;
+  width: 285px;
+  margin: 10px;
+  padding: 14px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 13px;
+  box-shadow: 10px 13px 20px 0px;
+}
+
+.bookTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  color: brown;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 18px;
+  display: flex;
+  font-weight: 500;
+  justify-content: flex-end;
+}
+
+.ratings {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.author {
+  color: rgb(31, 30, 30);
+  font-size: 16px;
+}
+
+.category {
+  font-size: 16px;
+  color: rgb(31, 30, 30);
+}
+
+.bookDetails {
+  padding: 0px 5px;
+}
+
+.button {
+  margin-top: 5px;
+}

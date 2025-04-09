@@ -1,0 +1,17 @@
+.popular {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}

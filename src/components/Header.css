@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-right: 50px; */
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 25px;
+}

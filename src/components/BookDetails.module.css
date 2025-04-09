@@ -1,0 +1,63 @@
+.bookDetails {
+
+  height: 500px;
+  width: 70%;
+  margin: auto;
+  background-color: gray;
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+button {
+  padding: 50px;
+  display: block;
+  width: 100%;
+  font-weight: 800;
+  margin: auto;
+}
+
+.details {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+
+}
+
+.title {
+  font-size: 30px;
+
+  margin-right: 5px;
+}
+
+.author {
+  font-size: 30px;
+
+  color: black;
+  margin-right: 5px;
+}
+
+.description {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.ratings {
+  font-size: 30px;
+  margin-right: 5px;
+
+}
+
+.star {
+  color: black;
+  font-size: 35px;
+  margin-left: 5px;
+}

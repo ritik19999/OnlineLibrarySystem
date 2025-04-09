@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/044/280/984/small/stack-of-books-on-a-brown-background-concept-for-world-book-day-photo.jpg) no-repeat center center/cover;
+  opacity: 0.4;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+}

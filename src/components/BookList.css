@@ -1,0 +1,18 @@
+.book-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 25px;
+  height: 500px;
+  padding: 2px;
+  width: 97%;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
