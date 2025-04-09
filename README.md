@@ -1,12 +1,11 @@
-# React + Vite
+In the Application from the header section you can navigate to home which is the home section of the application,
+browse books where you can find all the books 
+and in Add Book you can add a new book by filling all the details regarding the book.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In the home section you can search for the existing book in the datatbase from the search section .
 
-Currently, two official plugins are available:
+in the categories section by default all books are shown but you can click on any other category of you wish to load that books.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view book cards and by clicking on view more you can know more details about that book.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+below categories section you can find Popular book section which display some popular books.
