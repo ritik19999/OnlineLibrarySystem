@@ -80,9 +80,11 @@ function BookList() {
         onHorrorClick={handleHorror}
       ></Categories>
       <div className="book-list">
-        {filteredBook.map((book) => (
-          <Book key={book.id} book={book}></Book>
-        ))}
+        {filteredBook.length != 0 ? (
+          filteredBook.map((book) => <Book key={book.id} book={book}></Book>)
+        ) : (
+          <h3 className="para">No Book found.. Search for another book.</h3>
+        )}
       </div>
       <PopularBooks />
     </>
